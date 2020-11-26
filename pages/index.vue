@@ -1,28 +1,68 @@
 <template>
-  <div class="container">
+  <div class="container mt-20">
+    <div class="my-10">
+      <h1 class="text-2xl">How to give styles to your console.log()</h1>
+    </div>
     <div>
-      <Logo />
-      <h1 class="title">
-        blog
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+      <p>
+        You can implement standard retargeting, which is showing your ads to users who previously visited your website.
+        You can also use dynamic remarketing, which shows previous visitors not only your ads but also ads related to
+        the products and services they viewed on your website.
+      </p>
+      <p>
+        Message match and retargeting are not advanced practices though. Both are so commonly used among PPC marketers
+        that they’re considered basic personalization today.
+      </p>
+      <p>
+        You can implement standard retargeting, which is showing your ads to users who previously visited your website.
+        You can also use dynamic remarketing, which shows previous visitors not only your ads but also ads related to
+        the products and services they viewed on your website.
+      </p>
+      <p>
+        Message match and retargeting are not advanced practices though. Both are so commonly used among PPC marketers
+        that they’re considered basic personalization today.
+      </p>
+      <p>
+        You can implement standard retargeting, which is showing your ads to users who previously visited your website.
+        You can also use dynamic remarketing, which shows previous visitors not only your ads but also ads related to
+        the products and services they viewed on your website.
+      </p>
+      <p>
+        Message match and retargeting are not advanced practices though. Both are so commonly used among PPC marketers
+        that they’re considered basic personalization today.
+      </p>
+      <p>
+        You can implement standard retargeting, which is showing your ads to users who previously visited your website.
+        You can also use dynamic remarketing, which shows previous visitors not only your ads but also ads related to
+        the products and services they viewed on your website.
+      </p>
+      <p>
+        Message match and retargeting are not advanced practices though. Both are so commonly used among PPC marketers
+        that they’re considered basic personalization today.
+      </p>
+      <p>
+        You can implement standard retargeting, which is showing your ads to users who previously visited your website.
+        You can also use dynamic remarketing, which shows previous visitors not only your ads but also ads related to
+        the products and services they viewed on your website.
+      </p>
+      <p>
+        Message match and retargeting are not advanced practices though. Both are so commonly used among PPC marketers
+        that they’re considered basic personalization today.
+      </p>
+      <p>
+        You can implement standard retargeting, which is showing your ads to users who previously visited your website.
+        You can also use dynamic remarketing, which shows previous visitors not only your ads but also ads related to
+        the products and services they viewed on your website.
+      </p>
+      <p>
+        Message match and retargeting are not advanced practices though. Both are so commonly used among PPC marketers
+        that they’re considered basic personalization today.
+      </p>
+      <code class="my-10 bg-gray-800 text-gray-100">
+console.log('%c JavaScript!!', 'font-weight: bold; font-size: 50px;color: red; text-shadow: 3px 3px 0 rgb(217,31,38) , 6px 6px 0 rgb(226,91,14) , 9px 9px 0 rgb(245,221,8) , 12px 12px 0 rgb(5,148,68) , 15px 15px 0 rgb(2,135,206) , 18px 18px 0 rgb(4,77,145) , 21px 21px 0 rgb(42,21,113)');
+      </code>
+
+
     </div>
   </div>
 </template>
@@ -33,48 +73,3 @@ import Vue from 'vue'
 export default Vue.extend({})
 </script>
 
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
